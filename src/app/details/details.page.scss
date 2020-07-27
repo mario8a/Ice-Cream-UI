@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+ion-toolbar {
+    --background: url('../../assets/ice-cream-bg.jpg') 0 -7rem/100%  no-repeat;
+    color: #FFFFFF;
+    border-radius: 0 0 20% 20%;
+    ion-item {
+        --background: rgba(0,0,0,0);
+        color: white;
+
+        h1 {
+            font-weight: 500;
+            font-size: 2rem;
+            font-family: 'PT Sans', sans-serif;
+            letter-spacing: 6px;
+        }
+
+        ion-label {
+            margin-top: 2rem;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: right;
+            margin-left: 5rem;
+        }
+    }
+}
+
+//CARDS
+
+ion-card {
+    background: url('../../assets/ice/menta.jpg') 0 -3rem/100%  no-repeat;
+    overflow: visible;
+    font-family: 'Inder', sans-serif;
+    height: 75px;
+    box-shadow: none;
+    border-radius: 5rem;
+    margin: 26px 0;
+
+    ion-card-title {
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    ion-card-subtitle {
+        color: black;
+        font-size: 600;
+    }
+}
+
+
+ion-card:nth-child(2) {
+    background: url('../../assets/ice/zarzamora.jpg') 0 -3rem/100%  no-repeat;
+    ion-card-title {
+        color: white;
+    }
+    ion-card-subtitle {
+        color: white;
+    }
+}
+
+ion-card:nth-child(3) {
+    background: url('../../assets/ice/galleta.jpg') 0 -3rem/100%  no-repeat;
+    ion-card-title {
+        color: white;
+    }
+    ion-card-subtitle {
+        color: white;
+    }
+}
+
+ion-card:nth-child(4) {
+    background: url('../../assets/ice/fresa.jpg') 0 -3rem/100%  no-repeat;
+    ion-card-subtitle {
+        color: black;
+    }
+    ion-card-title:nth-child(2) {
+        color: white;
+    }
+}
